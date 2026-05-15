@@ -1,19 +1,49 @@
+# Customer Purchase Prediction using Machine Learning
 
-# Customer Purchase Prediction
+## 📌 Problem Statement
+Predict whether a user will purchase a product based on Age and Estimated Salary.
 
-## Problem
-Predict whether a user will purchase a product based on Age and Salary.
+---
 
-## Models Used
-- Logistic Regression
-- Random Forest Classifier
+## ⚙️ Approach
+- Data preprocessing (feature selection, scaling)
+- Train-test split
+- Applied:
+  - Logistic Regression
+  - Random Forest Classifier
 
-## Results
+---
+
+## 📊 Results
 - Logistic Regression Accuracy: ~88.75%
 - Random Forest Accuracy: ~87.5%
 
-## Key Insight
-Simpler models can outperform complex models depending on the dataset.
+---
 
-## Tech Stack
-Python, Pandas, Scikit-learn
+## 🔍 Key Insight
+A more complex model (Random Forest) did not outperform a simpler model (Logistic Regression) on this dataset.
+
+---
+
+## 🛠️ Tech Stack
+- Python
+- Pandas, NumPy
+- Scikit-learn
+
+---
+
+## 📁 Files
+- `model.ipynb` → Full implementation
+- `data.csv` → Dataset used
+
+---
+
+## 🚀 Future Improvements
+- Hyperparameter tuning
+- More features for better prediction
+- Try advanced models
+
+---
+
+## 🔗 Author
+Geethika
